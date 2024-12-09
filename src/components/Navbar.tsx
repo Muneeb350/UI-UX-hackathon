@@ -1,107 +1,150 @@
-import React from 'react'
+'use client';
+import React, { useState } from "react";
 import { IoChevronDownSharp } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa6";
 import { BsSearch } from "react-icons/bs";
 import { CgShoppingCart } from "react-icons/cg";
 import { IoIosHeartEmpty } from "react-icons/io";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
-    <nav className="flex items-center justify-between p-1 bg-slate-50">
-    <div className='bg-slate-50 w-full h-[70px] top-[70px] flex justify-start items-center'>
-        <div className='w-[187px] h-[58px] left-[38px] ml-2 flex items-center'>
-        <h3 className='font-montserrat ml-6 font-bold text-[24px] leading-[32px] tracking-[0.1px] w-[108px] h-[32px]  '>
-        Bandage
-    </h3>
+    <nav className="bg-slate-50 w-full">
+      <div className="flex items-center justify-between px-4 py-2 md:px-6 h-[70px]">
+        {/* Logo */}
+        <h3 className="font-montserrat font-bold text-[22px] text-gray-800">
+          Bandage
+        </h3>
 
-    <div className='font-montserrat w-[361px] h-[25px] top-[16.5px] gap-[15px] flex items-center ml-32 '>
-        <ul className='flex gap-[15px] text-gray-500 text-center font-bold text-[15px]'>
-        <li className='w-[43px] h-[24px] hover:text-blue-500 transition duration-200'>
-          <a href="#">Home</a></li>
-        <li className='flex items-center space-x-1 text-black font-medium hover:text-blue-500 transition duration-200'>
-          <a href="#">Shop </a>
-        <IoChevronDownSharp className='ml-2'/> </li>
-        <li className='hover:text-blue-500 transition duration-200'>
-          <a href="#">About</a>
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex items-center space-x-4 font-montserrat text-gray-500 font-bold text-[14px] mr-56">
+          <li className="hover:text-blue-500 transition duration-200">
+            <a href="#">Home</a>
           </li>
-        <li className='hover:text-blue-500 transition duration-200'>
-          <a href="#"> Blog </a>
-
-        </li>
-        <li className='hover:text-blue-500 transition duration-200'>
-          <a href="#">Contact</a>
+          <li className="flex items-center hover:text-blue-500 transition duration-200">
+            <a href="#">Shop</a>
+            <IoChevronDownSharp className="ml-1" />
           </li>
-        <li className='hover:text-blue-500 transition duration-200'>
-          <a href="#">Pages</a>
-
-        </li>
+          <li className="hover:text-blue-500 transition duration-200">
+            <a href="#">About</a>
+          </li>
+          <li className="hover:text-blue-500 transition duration-200">
+            <a href="#">Blog</a>
+          </li>
+          <li className="hover:text-blue-500 transition duration-200">
+            <a href="#">Contact</a>
+          </li>
+          <li className="hover:text-blue-500 transition duration-200">
+            <a href="#">Pages</a>
+          </li>
         </ul>
 
-        <div className="text-right flex items-center space-x-6 ml-96">
-          <ul className='font-montserrat flex justify-center items-center ml-12 font-bold text-sky-500'>
-            <li className='w-3 h-2 flex justify-center items-center '>
-            <FaRegUser />
-            </li>
-            <li className='ml-1 hover:text-blue-900 transition duration-200'>
-              <a href="#">Login</a>
-             
-            </li>
-            <li className='ml-2'>
-              /
-            </li>
-            <li className='ml-2 hover:text-blue-900 transition duration-200'>
-              <a href="#">Register</a>
-            </li>
-
-          </ul>
-
-          <div className='flex justify-between text-sky-500 w-[35px] h-[16px] hover:text-blue-900 transition duration-200'>
-            <a href="#">
-            <BsSearch className='size-[18px] ml-4'/>
+        {/* Icons Section */}
+        <div className="flex items-center space-x-8 text-[14px] font-bold">
+          {/* User Login */}
+          <div className="hidden md:flex items-center space-x-2">
+            <FaRegUser className="text-sky-500" />
+            <a
+              href="#"
+              className="hover:text-blue-900 text-sky-500 transition duration-200"
+            >
+              Login
             </a>
-            
+            <span>/</span>
+            <a
+              href="#"
+              className="hover:text-blue-900 text-sky-500 transition duration-200"
+            >
+              Register
+            </a>
           </div>
+
+          {/* Search Icon */}
+          <a
+            href="#"
+            className="text-sky-500 hover:text-blue-900 transition duration-200"
+          >
+            <BsSearch className="text-lg" />
+          </a>
+
+          {/* Cart Icon */}
           <div className="flex items-center space-x-1">
-  {/* Icon Section */}
-  <a
-    href="#"
-    className="text-sky-500 hover:text-blue-900 transition duration-200"
-  >
-    <CgShoppingCart className="text-[20px] ml-2" />
-  </a>
-
-  {/* Text Section */}
-  <a
-    href="#"
-    className="text-sky-500 text-[12px] hover:text-blue-900 transition duration-200 "
-  >
-    1
-  </a>
-</div>
-
-          
-    
-  </div>
-
-  <div className='text-sky-500 ml-3 w-[6px] h-[20px]'>
-    <a href="#"
-    className='hover:text-blue-900 transition duration-200'>
-          <IoIosHeartEmpty className='text-[22px]'/>
-          </a>
+            <a
+              href="#"
+              className="text-sky-500 hover:text-blue-900 transition duration-200"
+            >
+              <CgShoppingCart className="text-lg" />
+            </a>
+            <span className="text-sky-500 text-[12px]">1</span>
           </div>
-          <div className=' text-[12px] ml-1'>
-          <a href=""
-          className='text-sky-500 flex justify-between hover:text-blue-900 transition duration-200'>
-          1
-          </a>
-        </div>
-    </div>
-        </div>
 
-    
-    </div>
+          {/* Wishlist Icon */}
+          <div className="flex items-center space-x-1">
+            <a
+              href="#"
+              className="text-sky-500 hover:text-blue-900 transition duration-200"
+            >
+              <IoIosHeartEmpty className="text-lg" />
+            </a>
+            <span className="text-sky-500 text-[12px]">1</span>
+          </div>
+
+          {/* Mobile Menu Toggle */}
+          <div
+            className="md:hidden text-sky-500 cursor-pointer"
+            onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? (
+              <AiOutlineClose className="text-2xl" />
+            ) : (
+              <AiOutlineMenu className="text-2xl" />
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <ul className="flex flex-col items-start space-y-4 px-4 py-2 bg-slate-100 md:hidden">
+          <li className="hover:text-blue-500 transition duration-200">
+            <a href="#">Home</a>
+          </li>
+          <li className="flex items-center hover:text-blue-500 transition duration-200">
+            <a href="#">Shop</a>
+            <IoChevronDownSharp className="ml-1" />
+          </li>
+          <li className="hover:text-blue-500 transition duration-200">
+            <a href="#">About</a>
+          </li>
+          <li className="hover:text-blue-500 transition duration-200">
+            <a href="#">Blog</a>
+          </li>
+          <li className="hover:text-blue-500 transition duration-200">
+            <a href="#">Contact</a>
+          </li>
+          <li className="hover:text-blue-500 transition duration-200">
+            <a href="#">Pages</a>
+          </li>
+          <div className="flex flex-col items-start space-y-2">
+            <a
+              href="#"
+              className="hover:text-blue-900 text-sky-500 transition duration-200"
+            >
+              Login
+            </a>
+            <a
+              href="#"
+              className="hover:text-blue-900 text-sky-500 transition duration-200"
+            >
+              Register
+            </a>
+          </div>
+        </ul>
+      )}
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
