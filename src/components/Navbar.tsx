@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-slate-50 w-[1437px] h-[74px]">
+    <nav className="bg-slate-50 w-full h-[74px]">
       <div className="flex items-center justify-between px-4 py-2 md:px-6 h-[70px]">
         {/* Logo */}
         <h3 className="font-montserrat font-bold text-[22px] text-gray-800 ml-4">
