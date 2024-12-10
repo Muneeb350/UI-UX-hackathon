@@ -7,36 +7,36 @@ import { FaFacebook, FaTwitter } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="bg-blue-950 w-full h-[58px] flex items-center justify-between px-4 sm:px-8 text-white">
+    <div className="bg-gray-800 w-[1439px] h-[58px] flex items-center justify-between px-4 text-white">
       {/* Left Section: Contact Info */}
       <div className="flex items-center space-x-4">
         {/* Phone */}
-        <div className="flex items-center space-x-1">
-          <BsTelephone className="text-white text-sm" />
-          <h6 className="text-[13px] font-bold font-montserrat">
+        <div className="flex items-center space-x-2 ml-6">
+          <BsTelephone className="text-white text-md" />
+          <h6 className="text-[14px] font-bold font-montserrat">
             (225) 555-0118
           </h6>
         </div>
 
         {/* Email */}
-        <div className="flex items-center space-x-1">
-          <TfiEmail className="text-white text-sm ml-8" />
-          <h6 className="text-[13px] font-bold font-montserrat">
+        <div className="flex items-center space-x-1 ">
+          <TfiEmail className="text-white text-md ml-8" />
+          <h6 className="text-[14px] font-bold font-montserrat tracking-wider">
             michelle.rivera@example.com
           </h6>
         </div>
       </div>
 
       {/* Middle Section: Message */}
-      <div className="hidden md:flex">
-        <h6 className="text-[13px] font-bold font-montserrat">
+      <div>
+        <h6 className="text-[14px] font-bold font-montserrat">
           Follow Us and get a chance to win 80% off
         </h6>
       </div>
 
       {/* Right Section: Social Links */}
-      <div className="flex items-center space-x-2">
-        <h6 className="text-[13px] font-bold font-montserrat">Follow Us</h6>
+      <div className="flex items-center space-x-5">
+        <h6 className="text-[14px] font-bold font-montserrat">Follow Us</h6>
         <span>:</span>
         <IoLogoInstagram className="text-white text-lg" />
         <AiFillYoutube className="text-white text-lg" />
@@ -48,4 +48,5 @@ const Header = () => {
 };
 
 export default Header;
+
 
