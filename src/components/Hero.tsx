@@ -1,35 +1,38 @@
-import React from 'react'
+import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative h-[716px] w-full bg-cover bg-center"
-    style={{ backgroundImage: "url('/Image 1.jpg')" }}
+    <section
+      className="relative h-[716px] w-full bg-cover bg-center"
+      style={{ backgroundImage: "url('/Image 1.jpg')" }}
     >
-      <div className='text-left md:text-left px-6 md:px-12 lg:px-30 z-10 ml-36'>
       {/* Text Content */}
-      <div className="flex flex-col justify-center items-start pl-8 sm:pl-4 w-full lg:w-1/2">
-        <h5 className="mt-48 text-sm uppercase tracking-widest text-white font-bold">
-         SUMMER 2020
+      <div className="absolute inset-0 flex flex-col justify-center items-start px-4 sm:px-12 lg:px-32 z-10">
+        {/* Small Tagline */}
+        <h5 className="text-sm uppercase tracking-widest text-white font-bold">
+          SUMMER 2020
         </h5>
-          
-      
-        <h1 className="mt-10 text-4xl md:text-6xl font-bold text-white">
+
+        {/* Main Heading */}
+        <h1 className="mt-4 text-4xl md:text-6xl font-bold text-white leading-tight">
           New Collection
         </h1>
-        <p className="mt-10 text-white text-base md:text-lg">
-          We know how large objects will act,<br /> but things on a small scale.
+
+        {/* Subtext */}
+        <p className="mt-6 text-white text-base md:text-lg leading-relaxed">
+          We know how large objects will act,
+          <br />
+          but things on a small scale.
         </p>
-        <button className="font-bold mt-6 px-10 py-3 bg-green-500 hover:bg-green-600 text-white rounded-sm text-sm md:text-xl transition-all">
+
+        {/* Button */}
+        <button className="font-bold mt-6 px-8 py-3 bg-green-500 hover:bg-green-600 text-white rounded-sm text-sm md:text-lg transition-all">
           Shop Now
         </button>
       </div>
-      </div>
+    </section>
+  );
+};
 
-      
-      </section>
-    )
-    
-    
-}
+export default Hero;
 
-export default Hero
