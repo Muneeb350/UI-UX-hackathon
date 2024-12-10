@@ -52,7 +52,7 @@ const Navbar = () => {
             >
               Login
             </a>
-            <span>/</span>
+            <span className="text-sky-500">/</span>
             <a
               href="#"
               className="hover:text-blue-900 text-sky-500 transition duration-200"
