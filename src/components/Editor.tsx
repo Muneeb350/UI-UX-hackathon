@@ -18,25 +18,25 @@ const Editor = () => {
       </div>
       <div className="grid lg:grid-cols-3 gap-[10px] md:grid-cols-2 sm:grid-rows-1 relative space-x-1">
         <div className='relative bg-cover bg-center sm:justify-center sm:items-center'>
-        <img src="Image 2.jpg" alt="description" className='bg-cover bg-center max-w-[480px] h-[500px] left-[1px] ml-32 mt-[4px]' />
+        <img src="Image 2.jpg" alt="description" className='bg-cover bg-center max-w-[480px] h-[500px] left-[1px] ml-28 lg:ml-32 md:ml-20 sm:ml-32 mt-[4px]' />
         <h5 className='font-montserrat font-bold bg-white absolute bottom-4 w-[170px] h-[48px] ml-[170px] flex items-center justify-center'>
           MEN
         </h5>
         </div>
         <div className='relative bg-cover bg-center sm:justify-center sm:items-center'>
-        <img src="/Image 3.jpg" alt="description" className='bg-cover bg-center max-w-[350px] h-[500px] left-[1px] ml-32 mt-[4px]' />
+        <img src="/Image 3.jpg" alt="description" className='bg-cover bg-center max-w-[350px] h-[500px] left-[1px] ml-32 lg:ml-32 md:ml-20 sm:ml-36 mt-[4px]' />
         <h5 className='font-montserrat font-bold bg-white absolute bottom-4 w-[136px] h-[48px] ml-[170px] flex items-center justify-center'>
           WOMEN
         </h5>
         </div>
         <div className='relative grid md:grid-cols-2 lg:grid-cols-1 bg-cover bg-center sm:justify-center sm:items-center'>
-          <img src="/Image 4.jpg" alt="description" className='bg-cover bg-center sm:mr-60 w-[239px] h-[242px] ml-24 mt-[4px] '/>
-          <h5 className='font-montserrat font-bold bg-white absolute top-44 md:top-40 sm:top-30 w-[170px] h-[48px] left-[110px] lg:left-[110px] md:left-[110px] sm:left-[180px] flex items-center justify-center'>
+          <img src="/Image 4.jpg" alt="description" className='bg-cover bg-center sm:mr-60 w-[239px] h-[242px] ml-44 lg:ml-24 md:ml-40 sm:ml-40 mt-[4px] '/>
+          <h5 className='font-montserrat font-bold bg-white absolute top-44 md:top-40 sm:top-30 w-[170px] h-[48px] left-[190px] lg:left-[110px] md:left-[170px] sm:left-[200px] flex items-center justify-center'>
           ACCESSORIES
         </h5>
         <div className='relative bg-cover bg-center sm:justify-center sm:items-center '>
-        <img src="/Image 5.jpg" alt="description" className='bg-cover bg-center w-[239px] h-[242px] ml-24 mt-[16px]'/>
-        <h5 className='font-montserrat font-bold bg-white absolute top-44 lg:right-40 md:top-44 sm:top-44 w-[120px] h-[48px] left-[110px] lg:left-[110px] md:left-[110px] sm:left-[110px] flex items-center justify-center '>
+        <img src="/Image 5.jpg" alt="description" className='bg-cover bg-center w-[239px] h-[242px] ml-44 lg:ml-24 md:ml-[400px] sm:ml-40 mt-[16px]'/>
+        <h5 className='font-montserrat font-bold bg-white absolute top-44 lg:right-40 md:top-44 sm:top-44 w-[120px] h-[48px] left-[190px] lg:left-[110px] md:left-[420px] sm:left-[180px] flex items-center justify-center '>
           KIDS
         </h5>
         </div>
