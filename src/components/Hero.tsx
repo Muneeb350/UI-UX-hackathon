@@ -30,6 +30,7 @@ const Hero = () => {
           Shop Now
         </button>
       </div>
+      
     </section>
   );
 };
