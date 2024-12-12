@@ -6,7 +6,7 @@ const Editor = () => {
 
       <div className='flex flex-col justify-center items-center p-20'>
         <h3 className="font-montserrat font-bold text-[24px] leading-[32px] tracking-[0.1px] sm:text-[20px] md:text-[22px] lg:text-[24px] text-center">
-          EDITOR&apos;S PICK
+          EDITOR'S PICK
         </h3> 
         
         <p className='font-montserrat text-[14px] leading-[20px] tracking-[0.2px] sm:text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 pt-4 md:pt-2 sm:pt-4'>
@@ -24,7 +24,7 @@ const Editor = () => {
         </h5>
         </div>
         <div className='relative bg-cover bg-center sm:justify-center sm:items-center'>
-        <img src="/Image 3.jpg" alt="description" className='bg-cover bg-center max-w-[350px] h-[500px] left-[1px] lg:ml-32 md:ml-20 sm:ml-36 mt-[4px]' />
+        <img src="/Image 3.jpg" alt="description" className='bg-cover bg-center max-w-[350px] h-[500px] left-[1px] ml-6 lg:ml-32 md:ml-20 sm:ml-36 mt-[4px]' />
         <h5 className='font-montserrat font-bold bg-white absolute bottom-4 w-[136px] h-[48px] ml-[170px] flex items-center justify-center'>
           WOMEN
         </h5>
