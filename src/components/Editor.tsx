@@ -6,7 +6,7 @@ const Editor = () => {
 
       <div className='flex flex-col justify-center items-center p-20'>
         <h3 className="font-montserrat font-bold text-[24px] leading-[32px] tracking-[0.1px] sm:text-[20px] md:text-[22px] lg:text-[24px] text-center">
-          EDITOR'S PICK
+          EDITOR&apos;S PICK
         </h3> 
         
         <p className='font-montserrat text-[14px] leading-[20px] tracking-[0.2px] sm:text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 pt-4 md:pt-2 sm:pt-4'>
