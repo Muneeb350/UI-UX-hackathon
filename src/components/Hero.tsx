@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section
-      className="relative h-[716px] w-full bg-cover bg-center"
+      className="container relative h-[716px] w-full bg-cover bg-center"
       style={{ backgroundImage: "url('/Image 1.jpg')" }}
     >
       {/* Text Content */}
