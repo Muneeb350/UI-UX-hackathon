@@ -7,7 +7,7 @@ import { FaFacebook, FaTwitter } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="bg-gray-800 container h-[58px] items-center justify-between px-4 text-white hidden sm:flex md:flex">
+    <div className="bg-gray-800 h-[58px] items-center justify-between px-4 text-white hidden sm:flex md:flex">
       {/* Left Section: Contact Info */}
       <div className="flex items-center space-x-4">
         {/* Phone */}

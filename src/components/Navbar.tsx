@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-slate-50 container">
+    <nav className="bg-slate-50 ">
       {/* Navbar Container */}
       <div className="flex items-center justify-between px-4 py-2 md:px-6 h-[74px]">
         {/* Logo */}
