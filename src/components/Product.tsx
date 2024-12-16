@@ -24,7 +24,7 @@ const Product = () => {
         {/* Text area end */}
 
           {/* Image Parent 1st row */}
-        <div className='container pt-16 justify-center grid lg:grid-cols-4 lg:h-[615px] md:h-[1500px]  gap-[30px] md:grid-cols-2 sm:grid-rows-0 lg:ml-32 md:ml-28 '>
+        <div className='container pt-16 justify-center grid lg:grid-cols-4 lg:h-[615px] md:h-[1500px]  gap-[30px] md:grid-cols-2 sm:grid-rows-0 lg:ml-20 md:ml-28 '>
 
           {/* Image Child Div */}
             <div className='w-[250px] h-[615px] gap-[30px]'>
@@ -214,7 +214,7 @@ const Product = () => {
 
 
                {/* Parent Of 2nd row image */}
-          <div className='container pt-16 justify-center grid lg:grid-cols-4 h-[615px] gap-[30px] md:grid-cols-2 sm:grid-rows-0 lg:ml-32 md:ml-28 '>
+          <div className='container pt-16 justify-center grid lg:grid-cols-4 h-[615px] gap-[30px] md:grid-cols-2 sm:grid-rows-0 lg:ml-20 md:ml-28 '>
             {/* image 5 start */}
                <div className='w-[250px] h-[615px] gap-[30px]'>
                   <img src="/Product 5.jpeg" alt="" className='w-[290px] h-[400px]'/>
