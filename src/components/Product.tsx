@@ -24,7 +24,7 @@ const Product = () => {
         {/* Text area end */}
 
           {/* Image Parent 1st row */}
-        <div className='container pt-16 justify-center grid lg:grid-cols-4 lg:h-[615px] md:h-[1500px]  gap-[10px] md:grid-cols-2 sm:grid-rows-0 lg:ml-6 md:ml-28 '>
+        <div className='container pt-16 justify-center grid lg:grid-cols-4 lg:h-[615px] md:h-[1500px]  gap-[10px] md:grid-cols-2 sm:grid-rows-0 lg:ml-20 md:ml-28 '>
 
           {/* Image Child Div */}
             <div className='w-[250px] h-[615px] gap-[30px]'>
@@ -214,7 +214,7 @@ const Product = () => {
 
 
                {/* Parent Of 2nd row image */}
-          <div className='container pt-16 justify-center grid lg:grid-cols-4 h-[615px] gap-[10px] md:grid-cols-2 sm:grid-rows-0 lg:ml-6 md:ml-28 '>
+          <div className='container pt-16 justify-center grid lg:grid-cols-4 h-[615px] gap-[10px] md:grid-cols-2 sm:grid-rows-0 lg:ml-20 md:ml-28 '>
             {/* image 5 start */}
                <div className='w-[250px] h-[615px] gap-[30px]'>
                   <img src="/Product 5.jpeg" alt="" className='w-[290px] h-[400px]'/>
@@ -418,6 +418,38 @@ const Product = () => {
 
           </div>
           {/* Parent End of 2nd row image */}
+
+
+          {/* Green section start */}
+          <div className=' w-full pt-5 h-[709px] bg-emerald-700 lg:mt-20 md:mt-[800px] sm:mt-[2000px] mt-[2000px]'>
+             
+             {/* Text area */}
+            <div className='flex flex-row justify-center items-start px-4 lg:gap-[200px] '>
+
+
+              <div className='flex flex-col'>
+                 
+            <h4 className='font-montserrat w-[154px] text-white uppercase tracking-[0.5px] text-[20px] mt-[200px]'>
+                SUMMER 2020
+
+              </h4>
+
+              <h1 className='font-montserrat text-[58px] leading-[80px] tracking-[0.2px] font-bold text-white mt-10'>
+                Vita Classic <br />
+                Product
+              </h1>
+              </div>
+
+               <img src="Green image.png" alt="" className='w-auto h-[600px] mt-[89px] bg-cover bg-center'/>
+
+               
+
+              
+                
+                
+            </div>
+           
+          </div>
 
 
 
