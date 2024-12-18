@@ -470,24 +470,24 @@ const Product = () => {
 </div>
 {/* Green section end */}
 
+
+
 {/* Couple image section */}
-<div className='w-full min-h-[682px]'>
+<div className='w-full min-h-[682px] flex justify-center items-center'>
 
 
-{/* Text area */}
-<div className="flex flex-col md:flex-row justify-center items-center sm:mt-24 mt-24 px-4 lg:gap-[100px] gap-8">
+
 
     {/* Image Section */}
-    <div className='flex justify-end'>
+    <div className='flex justify-end sm:flex-col-reverse flex-col-reverse md:flex-row'>
       <img
         src="Couple image.png"
         alt="Product Image"
-        className="w-full md:w-auto h-[300px] md:h-[700px] object-cover mb-10"
+        className="w-full md:w-auto h-[300px] md:h-[700px] object-cover "
       />
-    </div>
-
-    {/* Text Section */}
-    <div className="flex flex-col md:w-auto justify-center text-center md:mr-36 lg:text-left md:text-left">
+       
+        {/* Text Section */}
+    <div className="flex flex-col justify-center text-center sm:mt-20 mt-20 md:mr-6 md:space-x-1 lg:text-left md:text-left ">
       <h4 className="font-montserrat text-gray-500 uppercase font-bold tracking-[0.5px] text-lg md:text-sm mb-4">
         SUMMER 2020
       </h4>
@@ -502,11 +502,11 @@ const Product = () => {
        
        <div className='flex md:flex-row justify-center md:mr-6 items-center md:gap-10 flex-col'>
 
-         <button className='bg-green-500 rounded-md  w-[156px] h-[52px] text-white font-montserrat mt-8 font-bold text-[16px]'>
+         <button className='bg-green-500 rounded-md hover:bg-green-400 transition duration-300 w-[156px] h-[52px] text-white font-montserrat mt-8 font-bold text-[16px]'>
           BUY NOW
         </button>
 
-        <button className='text-green-500 font-montserrat w-[173px] border h-[52px] rounded-[5px] border-green-500 mt-8 font-bold tracking-[0.1px] text-[16px] leading-[32px]'>
+        <button className='text-green-500 hover:bg-green-500 hover:text-white transition duration-300 font-montserrat w-[173px] border h-[52px] rounded-[5px] border-green-500 mt-8 font-bold tracking-[0.1px] text-[16px] leading-[32px]'>
           READ MORE
         </button>
 
@@ -516,11 +516,15 @@ const Product = () => {
 
 
     </div>
+    {/* Text section end */}
 
+      
+    </div>
+
+   
     
 
-  </div>
-  {/* Text area end */}
+ 
 
     
     
