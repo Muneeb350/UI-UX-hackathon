@@ -1,9 +1,12 @@
 import React from 'react'
+import { RiAlarmLine } from "react-icons/ri";
+import { FaRegCommentDots } from "react-icons/fa";
+import { SlArrowRight } from "react-icons/sl";
 
 const Product = () => {
   return (
     // Parent start
-    <div className='w-full pt-5 lg:h-[1400px] md:h-[3500px] sm:h-[5800px]'>
+    <div className='w-full pt-5 lg:h-[1400px] md:h-[3500px] sm:h-[5500px]'>
 
        {/* Text Area */}
         <div className=' bg-white w-full font-bold font-montserrat flex items-center flex-col justify-center'>
@@ -473,7 +476,7 @@ const Product = () => {
 
 
 {/* Couple image section */}
-<div className='w-full min-h-[682px] flex justify-center items-center'>
+<div className='w-full min-h-[682px]'>
 
 
 
@@ -481,13 +484,13 @@ const Product = () => {
     {/* Image Section */}
     <div className='flex justify-end sm:flex-col-reverse flex-col-reverse md:flex-row'>
       <img
-        src="Couple image.png"
+        src="/Couple image.png"
         alt="Product Image"
         className="w-full md:w-auto h-[300px] md:h-[700px] object-cover "
       />
        
         {/* Text Section */}
-    <div className="flex flex-col justify-center text-center sm:mt-20 mt-20 md:mr-6 md:space-x-1 lg:text-left md:text-left ">
+    <div className="flex flex-col justify-center text-center sm:mt-20 mt-20 md:mr-6 lg:text-left md:text-left ">
       <h4 className="font-montserrat text-gray-500 uppercase font-bold tracking-[0.5px] text-lg md:text-sm mb-4">
         SUMMER 2020
       </h4>
@@ -521,17 +524,303 @@ const Product = () => {
       
     </div>
 
+   </div>
+{/* Couple image End */}
+
+
+
+{/* 3 Images parent section start */}
+<div className='min-h-[1044px] pt-28'>
+  {/* Text div */}
+  <div className='flex justify-center items-center flex-col'>
+    <h6 className='font-montserrat tracking-[0.2px] text-sky-500 font-bold'>
+    Practice Advice
+    </h6>
+     
+     <h2 className='font-montserrat tracking-[0.2px] text-[40px] font-bold'>
+     Featured Posts
+     </h2>
+
+     <p className='text-center font-montserrat text-gray-600 md:text-[14px] sm:text-[14px] text-[12px]  mt-1'>
+     Problems trying to resolve the conflict between <br />
+     the two major realms of Classical physics: Newtonian mechanics 
+     </p>
+
+  
+  </div>
+  {/* text end */}
+
+
+  
+
+
+
+  {/* car image section */}
+  <div className='justify-center items-center flex md:flex-row sm:flex-col flex-col md:h-[600px] sm:h-[1900px] gap-10'>
+
+    {/* 1 Image section */}
+    <div className='w-[328px] h-[606px]'>
+    <div className='relative w-[348px] h-[300px]'>
+     <img src="/Car image 1.jpg" alt=""  className=' w-[348px] h-[300px] mt-20'/>
+     <h6 className='absolute inset-0 top-4 ml-4 rounded-sm text-white bg-red-600 font-montserrat font-bold w-[58px] h-[24px] flex items-center justify-center'>
+      NEW
+     </h6>
+     </div>
+     {/* Image section end */}
+
+      {/* text section */}
+     <div className='w-[348px] h-[300px] shadow-md'>
+
+      {/* small section */}
+      <div className='p-4'>
+      <div className="text-sm text-gray-500 flex gap-4 font-montserrat">
+      <span className='text-sky-300'>Google</span>
+      <span>Trending</span>
+      <span>New</span>
+    </div>
+
+      <h4 className='mt-2 text-lg font-montserrat text-[20px] text-slate-900'>
+      Loudest à la Madison #1 
+      (L'integral)
+      </h4>
+
+      <p className='mt-4 text-sm text-gray-400 text-[14px] tracking-[0.2px] w-[250px] font-montserrat'>
+      We focus on ergonomics and meeting 
+        you where you work. It's only a 
+         keystroke away.
+      </p>
+
+
+       {/* date start */}
+      <div className='w-[298px] h-[46px] pt-[20px] flex flex-row justify-between items-center gap-2'>
+        <div className='flex flex-row items-center gap-2'>
+      <RiAlarmLine  className='text-sky-500 '/>
+      <span className='font-montserrat text-[12px] text-gray-400'>
+      22 April 2021
+      </span>
+      </div>
+
+
+      <div className='flex items-center gap-1'>
+
+      <FaRegCommentDots />
+
+    <span className='font-montserrat text-gray-400'>
+          10 comments
+        </span>
+      </div>
+      
+
+
+      </div>
+      {/* date end */}
+
+      <div className='w-[150px] h-[24px] pt-8 flex flex-row items-center gap-1'>
+
+        <h6 className='font-montserrat tracking-[0.2px] text-gray-500 font-bold'>
+          Learn More 
+        </h6>
+
+        <SlArrowRight className='text-sky-500'/>
+        
+      </div>
+
+     </div>
+     {/* small section end */}
+
+
+
+     </div>
+     {/* text end */}
+
+     </div>
+     {/* 1 image end */}
+
+
+
+
+       
+     {/* 2nd Image section */}
+     <div className='w-[328px] h-[606px]'>
+    <div className='relative w-[348px] h-[300px]'>
+     <img src="/Car image 2.jpg" alt=""  className=' w-[348px] h-[300px] mt-20'/>
+     <h6 className='absolute inset-0 top-4 ml-4 rounded-sm text-white bg-red-600 font-montserrat font-bold w-[58px] h-[24px] flex items-center justify-center'>
+      NEW
+     </h6>
+     </div>
+     {/* 2nd Image section end */}
+
+
+     {/* 2nd text section */}
+     <div className='w-[348px] h-[300px] shadow-md'>
+
+      {/* small section */}
+      <div className='p-4'>
+      <div className="text-sm text-gray-500 flex gap-4 font-montserrat">
+      <span className='text-sky-300'>Google</span>
+      <span>Trending</span>
+      <span>New</span>
+    </div>
+
+      <h4 className='mt-2 text-lg font-montserrat text-[20px] text-slate-900'>
+      Loudest à la Madison #1 
+      (L'integral)
+      </h4>
+
+      <p className='mt-4 text-sm text-gray-400 text-[14px] tracking-[0.2px] w-[250px] font-montserrat'>
+      We focus on ergonomics and meeting 
+        you where you work. It's only a 
+         keystroke away.
+      </p>
+
+
+       {/* date start */}
+      <div className='w-[298px] h-[46px] pt-[20px] flex flex-row justify-between items-center gap-2'>
+        <div className='flex flex-row items-center gap-2'>
+      <RiAlarmLine  className='text-sky-500 '/>
+      <span className='font-montserrat text-[12px] text-gray-400'>
+      22 April 2021
+      </span>
+      </div>
+
+
+      <div className='flex items-center gap-1'>
+
+      <FaRegCommentDots />
+
+    <span className='font-montserrat text-gray-400'>
+          10 comments
+        </span>
+      </div>
+      
+
+
+      </div>
+      {/* date end */}
+
+      <div className='w-[150px] h-[24px] pt-8 flex flex-row items-center gap-1'>
+
+        <h6 className='font-montserrat tracking-[0.2px] text-gray-500 font-bold'>
+          Learn More 
+        </h6>
+
+        <SlArrowRight className='text-sky-500'/>
+        
+      </div>
+
+     </div>
+     {/* small section end */}
+
+
+
+     </div>
+     {/* 2nd text end */}
+
+     </div>
+     {/* 2nd image end */}
+
+
+
+
+     {/* 3rd Image section */}
+     <div className='w-[328px] h-[606px]'>
+    <div className='relative w-[348px] h-[300px]'>
+     <img src="/Car image 3.jpg" alt=""  className=' w-[348px] h-[300px] mt-20'/>
+     <h6 className='absolute inset-0 top-4 ml-4 rounded-sm text-white bg-red-600 font-montserrat font-bold w-[58px] h-[24px] flex items-center justify-center'>
+      NEW
+     </h6>
+     </div>
+     {/* 3rd Image section end */}
+
+
+     {/* 3rd text section */}
+     <div className='w-[348px] h-[300px] shadow-md'>
+
+      {/* small section */}
+      <div className='p-4'>
+      <div className="text-sm text-gray-500 flex gap-4 font-montserrat">
+      <span className='text-sky-300'>Google</span>
+      <span>Trending</span>
+      <span>New</span>
+    </div>
+
+      <h4 className='mt-2 text-lg font-montserrat text-[20px] text-slate-900'>
+      Loudest à la Madison #1 
+      (L'integral)
+      </h4>
+
+      <p className='mt-4 text-sm text-gray-400 text-[14px] tracking-[0.2px] w-[250px] font-montserrat'>
+      We focus on ergonomics and meeting 
+        you where you work. It's only a 
+         keystroke away.
+      </p>
+
+
+       {/* date start */}
+      <div className='w-[298px] h-[46px] pt-[20px] flex flex-row justify-between items-center gap-2'>
+        <div className='flex flex-row items-center gap-2'>
+      <RiAlarmLine  className='text-sky-500 '/>
+      <span className='font-montserrat text-[12px] text-gray-400'>
+      22 April 2021
+      </span>
+      </div>
+
+
+      <div className='flex items-center gap-1'>
+
+      <FaRegCommentDots />
+
+    <span className='font-montserrat text-gray-400'>
+          10 comments
+        </span>
+      </div>
+      
+
+
+      </div>
+      {/* date end */}
+
+      <div className='w-[150px] h-[24px] pt-8 flex flex-row items-center gap-1'>
+
+        <h6 className='font-montserrat tracking-[0.2px] text-gray-500 font-bold'>
+          Learn More 
+        </h6>
+
+        <SlArrowRight className='text-sky-500'/>
+        
+      </div>
+
+     </div>
+     {/* small section end */}
+
+
+
+     </div>
+     {/* 3rd text end */}
+
+     </div>
+     {/* 3rd image end */}
+    
+
+
+
+     </div>
+     {/* car image end */}
+
+
+
+     
+
+
+
+   </div>
+{/* 3 images section end */}
+
+
    
-    
-
- 
-
-    
-    
+  
 
 
-
-</div>
 
                
 </div>

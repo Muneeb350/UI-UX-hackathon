@@ -4,7 +4,7 @@ const Editor = () => {
   return (
     <div className='min-h-screen bg-gray-50 max-w-full sm:h-[1900px] md:h-[1100px] lg:h-[770px]'>
 
-      <div className=' flex flex-col justify-center items-center spac p-20'>
+      <div className=' flex flex-col justify-center items-center p-20'>
         <h3 className="font-montserrat font-bold text-[24px] leading-[32px] tracking-[0.1px] sm:text-[20px] md:text-[22px] lg:text-[24px] text-center">
           EDITOR'S PICK
         </h3> 
