@@ -2,6 +2,9 @@ import React from 'react'
 import { RiAlarmLine } from "react-icons/ri";
 import { FaRegCommentDots } from "react-icons/fa";
 import { SlArrowRight } from "react-icons/sl";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 const Product = () => {
   return (
@@ -556,7 +559,7 @@ const Product = () => {
 
 
   {/* car image section */}
-  <div className='justify-center items-center flex md:flex-row sm:flex-col flex-col md:h-[600px] sm:h-[1900px] gap-10'>
+  <div className='justify-center items-center flex md:flex-row sm:flex-col flex-col md:h-[600px] sm:h-[2200px] h-[2200px] gap-10'>
 
     {/* 1 Image section */}
     <div className='w-[328px] h-[606px]'>
@@ -815,6 +818,214 @@ const Product = () => {
 
    </div>
 {/* 3 images section end */}
+
+
+
+{/* Parent section main start */}
+<div className='w-full h-[120px] bg-gray-50 flex justify-center items-center'>
+
+  {/* Shadow main start */}
+  <div className='w-[1050px] bg-gray-50 shadow-md md:h-[118px] sm:h-[200px] h-[200px] sm:justify-center sm:items-start sm:gap-10 justify-center items-start gap-10 md:flex-row sm:flex-col flex-col  flex md:justify-between md:items-center'>
+
+
+    <div>
+      <h3 className=' font-montserrat font-bold text-[24px] ml-10'>
+      Bandage
+      </h3> 
+      </div>
+  
+
+  <div className='flex justify-between items-center sm:ml-10 gap-5 ml-10 md:mr-4 h-[24px]'>
+      <FaFacebook className='w-[23px] h-[23px] text-sky-600'/>
+
+      <FaInstagram className='w-[22px] h-[22px] text-sky-600'/>
+
+      <FaTwitter className='w-[22px] h-[18px] text-sky-600'/>
+       </div>
+
+
+      </div>
+      {/* Shadow main end */}
+
+      
+
+</div>
+{/* Parent section main end */}
+
+
+
+{/* Footer main div start */}
+<div className='w-full lg:h-[272px] h-[1000px] md:h-[800px] flex justify-center items-center'>
+
+
+{/* Text div start */}
+  <div className='w-[900px] lg:h-[170px] h-[800px] md:h-[800px] lg:mr-32 lg:grid-cols-5 grid md:grid-cols-2 gap-[20px] justify-start items-center'>
+
+     {/* first col start */}
+    <div className='w-[148px] h-[170px] flex-col ml-9'>
+      <h5 className='font-bold font-montserrat text-[16px]'>
+      Company Info
+      </h5>
+
+      <h1 className='mt-6 font-bold font-montserrat text-[14px] text-gray-500'>
+      About Us
+      </h1>
+      
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      Carrier
+      </h1>
+
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      We are hiring
+      </h1>
+
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      Blog
+      </h1> 
+    </div>
+    {/* first col end */}
+
+
+     {/* 2nd col start */}
+    <div className='w-[152px] h-[170px] flex-col ml-9'>
+      <h5 className='font-bold font-montserrat text-[16px]'>
+        Legal
+      </h5>
+
+      <h1 className='mt-6 font-bold font-montserrat text-[14px] text-gray-500'>
+      About Us
+      </h1>
+      
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      Carrier
+      </h1>
+
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      We are hiring
+      </h1>
+
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      Blog
+      </h1> 
+    </div>
+    {/* 2nd col end */}
+
+
+     {/* 3rd col start */}
+    <div className='w-[148px] h-[170px] flex-col ml-9'>
+      <h5 className='font-bold font-montserrat text-[16px]'>
+      Features
+      </h5>
+
+      <h1 className='mt-6 font-bold font-montserrat text-[14px] text-gray-500'>
+      Businees Marketing
+      </h1>
+      
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      User Analytic
+      </h1>
+
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      Live Chat
+      </h1>
+
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+        Unlimited Support
+      </h1> 
+    </div>
+    {/* 3rd col end */}
+
+
+     {/* 4th col start */}
+    <div className='w-[152px] h-[170px] flex-col ml-9'>
+      <h5 className='font-bold font-montserrat text-[16px]'>
+       Resources
+      </h5>
+
+      <h1 className='mt-6 font-bold font-montserrat text-[14px] text-gray-500'>
+      IOS & Android
+      </h1>
+      
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      Watch a Demo
+      </h1>
+
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      Customers
+      </h1>
+
+      <h1 className='mt-4 font-bold font-montserrat text-[14px] text-gray-500'>
+      API
+      </h1> 
+    </div>
+    {/* 4th col end */}
+
+
+     
+
+
+     {/* 5th col start */}
+    <div className='w-[280px] h-[170px] flex-col ml-9'>
+      <h5 className='font-bold font-montserrat text-[16px]'>
+      Get In Touch
+      </h5>
+
+
+         {/* Label and subscribe start */}
+      <div className='flex flex-row'>
+  <input
+    type="email"
+    id="email"
+    className="px-2 py-4 mt-6 border border-gray-200 bg-gray-50 font-montserrat font-bold text-[14px] focus:outline-none focus:ring-2 focus:ring-blue-500"
+    placeholder="Your Email"
+  />
+
+
+{/* Button div start */}
+  <div className='pt-6'>
+<button className='bg-sky-500 text-white w-[100px] h-[58px] font-montserrat text-[14px] rounded-sm '>
+    Subscribe
+  </button>
+  </div>
+  {/* button div end */}
+
+
+  </div>
+    {/* Label and subscribe end */}
+
+    <h1 className='mt-1 tracking-[0.2px] font-montserrat text-[12px] text-gray-500'>
+    Lore imp sum dolor Amit
+    </h1>
+
+
+    </div>
+    {/* 5th col end */}
+
+    
+
+
+    
+
+
+
+
+  </div>
+  {/* text div end */}
+
+      </div>
+      {/* Footer main div end */}
+
+      <div className='w-full h-[74px] bg-slate-50 flex items-center '>
+
+        
+         <div className='w-[600px]'>
+        <h6 className='lg:ml-36 sm:ml-10 ml-10 font-bold font-montserrat  text-gray-500 text-[14px] tracking-[0.2px]'>
+        Made With Love By Muneeb Jawed All Right Reserved 
+        </h6>
+        
+        </div>
+
+      </div>
 
 
    
