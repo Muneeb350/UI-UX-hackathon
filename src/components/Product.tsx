@@ -485,7 +485,7 @@ const Product = () => {
 
 
     {/* Image Section */}
-    <div className='flex justify-end sm:flex-col-reverse flex-col-reverse md:flex-row'>
+    <div className='flex justify-end sm:flex-col-reverse flex-col-reverse md:flex-col-reverse lg:flex-row'>
       <img
         src="/Couple image.png"
         alt="Product Image"
@@ -493,7 +493,7 @@ const Product = () => {
       />
        
         {/* Text Section */}
-    <div className="flex flex-col justify-center text-center sm:mt-20 mt-20 md:mr-6 lg:text-left md:text-left ">
+    <div className="flex flex-col justify-center text-center sm:mt-20 mt-20 md:mr-6 lg:text-left ">
       <h4 className="font-montserrat text-gray-500 uppercase font-bold tracking-[0.5px] text-lg md:text-sm mb-4">
         SUMMER 2020
       </h4>
@@ -562,7 +562,7 @@ const Product = () => {
   <div className='justify-center pb-60 md:pb-4 items-center flex md:flex-row sm:flex-col flex-col md:h-[600px] sm:h-[2200px] h-[2200px] gap-10'>
 
     {/* 1 Image section */}
-    <div className='w-[328px] h-[606px]'>
+    <div className='md:w-[328px] h-[606px]'>
     <div className='relative w-[348px] h-[300px]'>
      <img src="/Car image 1.jpg" alt=""  className=' w-[348px] h-[300px] mt-20'/>
      <h6 className='absolute inset-0 top-4 ml-4 rounded-sm text-white bg-red-600 font-montserrat font-bold w-[58px] h-[24px] flex items-center justify-center'>
@@ -572,7 +572,7 @@ const Product = () => {
      {/* Image section end */}
 
       {/* text section */}
-     <div className='w-[348px] h-[300px] shadow-md'>
+     <div className='md:w-[348px] h-[300px] shadow-md'>
 
       {/* small section */}
       <div className='p-4'>
@@ -644,7 +644,7 @@ const Product = () => {
 
        
      {/* 2nd Image section */}
-     <div className='w-[328px] h-[606px]'>
+     <div className='md:w-[328px] h-[606px]'>
     <div className='relative w-[348px] h-[300px]'>
      <img src="/Car image 2.jpg" alt=""  className=' w-[348px] h-[300px] mt-20'/>
      <h6 className='absolute inset-0 top-4 ml-4 rounded-sm text-white bg-red-600 font-montserrat font-bold w-[58px] h-[24px] flex items-center justify-center'>
@@ -655,7 +655,7 @@ const Product = () => {
 
 
      {/* 2nd text section */}
-     <div className='w-[348px] h-[300px] shadow-md'>
+     <div className='md:w-[348px] h-[300px] shadow-md'>
 
       {/* small section */}
       <div className='p-4'>
@@ -726,7 +726,7 @@ const Product = () => {
 
 
      {/* 3rd Image section */}
-     <div className='w-[328px] h-[606px]'>
+     <div className='md:w-[328px] h-[606px]'>
     <div className='relative w-[348px] h-[300px]'>
      <img src="/Car image 3.jpg" alt=""  className=' w-[348px] h-[300px] mt-20'/>
      <h6 className='absolute inset-0 top-4 ml-4 rounded-sm text-white bg-red-600 font-montserrat font-bold w-[58px] h-[24px] flex items-center justify-center'>
@@ -737,7 +737,7 @@ const Product = () => {
 
 
      {/* 3rd text section */}
-     <div className='w-[348px] h-[300px] shadow-md'>
+     <div className='md:w-[348px] h-[300px] shadow-md'>
 
       {/* small section */}
       <div className='p-4'>
