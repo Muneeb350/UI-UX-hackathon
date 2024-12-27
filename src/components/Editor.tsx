@@ -16,7 +16,7 @@ const Editor = () => {
         
         
       </div>
-      <div className="container grid lg:grid-cols-3 gap-[50px] md:grid-cols-2 sm:grid-rows-1 sm:ml-20 ml-5 relative space-x-1">
+      <div className="container grid lg:grid-cols-3 gap-[50px] md:grid-cols-2 sm:grid-rows-1 sm:ml-20 ml- relative space-x-1">
         <div className='relative bg-cover bg-center sm:justify-center sm:items-center'>
         <img src="Image 2.jpg" alt="description" className='bg-cover bg-center md:w-[400px] w-[300px] h-[500px] left-[1px] lg:ml-32 md:ml-20 sm:ml-32 mt-[4px]' />
         <h5 className='font-montserrat font-bold bg-white absolute bottom-4 w-[170px] h-[48px] ml-10 sm:ml-[150px] lg:ml-[170px] flex items-center justify-center'>
