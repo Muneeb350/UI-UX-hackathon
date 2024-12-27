@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Editor from "@/components/Editor";
 import Product from "@/components/Product";
-import Footer from "@/components/Footer";
 
 
 
@@ -19,7 +18,7 @@ export default function Home() {
     <Hero />
     <Editor />
     <Product />
-    <Footer />
+    
     
     
     </div>
