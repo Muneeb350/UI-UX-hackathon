@@ -562,7 +562,7 @@ const Product = () => {
   <div className='justify-center pb-60 md:pb-4 items-center flex md:flex-row sm:flex-col flex-col md:h-[600px] sm:h-[2200px] h-[2200px] gap-10'>
 
     {/* 1 Image section */}
-    <div className='md:w-[328px] h-[606px]'>
+    <div className='w-[328px] h-[606px]'>
     <div className='relative w-[348px] h-[300px]'>
      <img src="/Car image 1.jpg" alt=""  className=' w-[348px] h-[300px] mt-20'/>
      <h6 className='absolute inset-0 top-4 ml-4 rounded-sm text-white bg-red-600 font-montserrat font-bold w-[58px] h-[24px] flex items-center justify-center'>
