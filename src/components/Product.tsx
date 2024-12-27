@@ -564,7 +564,7 @@ const Product = () => {
     {/* 1 Image section */}
     <div className='md:w-[328px] h-[606px]'>
     <div className='relative w-[348px] h-[300px]'>
-     <img src="/Car image 1.jpg" alt=""  className=' w-[348px] h-[300px] mt-20'/>
+     <img src="/Car image 1.jpg" alt=""  className='md:w-[348px] w-[342px] h-[300px] mt-20'/>
      <h6 className='absolute inset-0 top-4 ml-4 rounded-sm text-white bg-red-600 font-montserrat font-bold w-[58px] h-[24px] flex items-center justify-center'>
       NEW
      </h6>
@@ -572,7 +572,7 @@ const Product = () => {
      {/* Image section end */}
 
       {/* text section */}
-     <div className='md:w-[348px] h-[300px] shadow-md'>
+     <div className='md:w-[348px] w-[342px] h-[300px] shadow-md'>
 
       {/* small section */}
       <div className='p-4'>
@@ -646,7 +646,7 @@ const Product = () => {
      {/* 2nd Image section */}
      <div className='md:w-[328px] h-[606px]'>
     <div className='relative w-[348px] h-[300px]'>
-     <img src="/Car image 2.jpg" alt=""  className=' w-[348px] h-[300px] mt-20'/>
+     <img src="/Car image 2.jpg" alt=""  className=' md:w-[348px] w-[342px] h-[300px] mt-20'/>
      <h6 className='absolute inset-0 top-4 ml-4 rounded-sm text-white bg-red-600 font-montserrat font-bold w-[58px] h-[24px] flex items-center justify-center'>
       NEW
      </h6>
@@ -655,7 +655,7 @@ const Product = () => {
 
 
      {/* 2nd text section */}
-     <div className='md:w-[348px] h-[300px] shadow-md'>
+     <div className='md:w-[348px] w-[342px] h-[300px] shadow-md'>
 
       {/* small section */}
       <div className='p-4'>
@@ -728,7 +728,7 @@ const Product = () => {
      {/* 3rd Image section */}
      <div className='md:w-[328px] h-[606px]'>
     <div className='relative w-[348px] h-[300px]'>
-     <img src="/Car image 3.jpg" alt=""  className=' w-[348px] h-[300px] mt-20'/>
+     <img src="/Car image 3.jpg" alt=""  className=' md:w-[348px] w-[342px] h-[300px] mt-20'/>
      <h6 className='absolute inset-0 top-4 ml-4 rounded-sm text-white bg-red-600 font-montserrat font-bold w-[58px] h-[24px] flex items-center justify-center'>
       NEW
      </h6>
@@ -737,7 +737,7 @@ const Product = () => {
 
 
      {/* 3rd text section */}
-     <div className='md:w-[348px] h-[300px] shadow-md'>
+     <div className='md:w-[348px] w-[342px] h-[300px] shadow-md'>
 
       {/* small section */}
       <div className='p-4'>

@@ -20,7 +20,7 @@ const Navbar = () => {
         </h3>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex items-center space-x-6 font-montserrat text-gray-500 font-bold text-[14px] mr-20">
+        <ul className="hidden md:flex items-center space-x-3 lg:space-x-6 font-montserrat text-gray-500 font-bold text-[14px] mr-20">
           <li className="hover:text-blue-500 transition duration-200">
             <a href="#">Home</a>
           </li>
