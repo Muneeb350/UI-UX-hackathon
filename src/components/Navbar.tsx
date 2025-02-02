@@ -22,24 +22,22 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center space-x-3 lg:space-x-6 font-montserrat text-gray-500 font-bold text-[14px] mr-20">
           <li className="hover:text-blue-500 transition duration-200">
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li className="flex items-center hover:text-blue-500 transition duration-200">
-            <a href="#">Shop</a>
+            <a href="/shop">Shop</a>
             <IoChevronDownSharp className="ml-1" />
           </li>
           <li className="hover:text-blue-500 transition duration-200">
-            <a href="#">About</a>
+            <a href="/about">About</a>
           </li>
           <li className="hover:text-blue-500 transition duration-200">
-            <a href="#">Blog</a>
+            <a href="/Blog">Blog</a>
           </li>
           <li className="hover:text-blue-500 transition duration-200">
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
-          <li className="hover:text-blue-500 transition duration-200">
-            <a href="#">Pages</a>
-          </li>
+          
         </ul>
 
         {/* Icons Section */}
@@ -81,24 +79,22 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <ul className="flex flex-col space-y-4 px-4 py-6 bg-slate-100 md:hidden">
           <li className="hover:text-blue-500 transition duration-200">
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li className="hover:text-blue-500 transition duration-200 flex items-center">
-            <a href="#">Shop</a>
+            <a href="/shop">Shop</a>
             <IoChevronDownSharp className="ml-1" />
           </li>
           <li className="hover:text-blue-500 transition duration-200">
-            <a href="#">About</a>
+            <a href="/about">About</a>
           </li>
           <li className="hover:text-blue-500 transition duration-200">
-            <a href="#">Blog</a>
+            <a href="/Blog">Blog</a>
           </li>
           <li className="hover:text-blue-500 transition duration-200">
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
-          <li className="hover:text-blue-500 transition duration-200">
-            <a href="#">Pages</a>
-          </li>
+          
           <li className="hover:text-blue-500 transition duration-200 flex flex-col">
             <a href="#" className="text-sky-500 hover:text-blue-900">Login</a>
             <a href="#" className="text-sky-500 hover:text-blue-900">Register</a>
